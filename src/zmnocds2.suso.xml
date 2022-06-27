@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SUSO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOBJ>
+    <OBJCT>ZMNOCDS2</OBJCT>
+    <FIEL1>BUKRS</FIEL1>
+    <FIEL2>ACTVT</FIEL2>
+    <OCLSS>ZCDS</OCLSS>
+   </TOBJ>
+   <TOBJT>
+    <LANGU>T</LANGU>
+    <OBJECT>ZMNOCDS2</OBJECT>
+    <TTEXT>cds örnek</TTEXT>
+   </TOBJT>
+   <TOBJVORFLG>
+    <OBJCT>ZMNOCDS2</OBJCT>
+   </TOBJVORFLG>
+  </asx:values>
+ </asx:abap>
+</abapGit>

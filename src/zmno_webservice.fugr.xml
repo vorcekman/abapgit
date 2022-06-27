@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>webs servis</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZMNO_WEBSERVICETOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZMNO_WEBSERVICE</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZMNO_FWEBSERVICE</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>web servis örnek</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_BUKRS</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>BUKRS</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_GJAHR</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>GJAHR</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>IT_TABLE</PARAMETER>
+       <TYP>ZMNO_SWEBT</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_BUKRS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Muhasebe belgesi şirket kodu (işlem satırı)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_GJAHR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Mali yıl</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_TABLE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Generated Table for View</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZMNO_NAMEWEB</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>web servis 2</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_NAME</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>CHAR25</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_UNAME</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>CHAR25</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>IV_GNAME</PARAMETER>
+       <TYP>CHAR50</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_NAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>PC kümesi için kullanıcı alanı (ulusal)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_UNAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>PC kümesi için kullanıcı alanı (ulusal)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_GNAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Açıklama</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

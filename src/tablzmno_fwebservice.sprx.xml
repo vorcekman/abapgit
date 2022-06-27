@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZMNO_FWEBSERVICE</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZMNO_FWEBSERVICE</OBJ_NAME_M>
+     <HASH_ID>F11F230C558FD22128053CC9A267C57603D07123</HASH_ID>
+     <ID>&lt;message&gt; ZMNO_FWEBSERVICE urn:sap-com:document:sap:rfc:functions urn:sap-com:document:sap:rfc:functions</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>message</IFR_TYPE>
+     <IFR_NAME>ZMNO_FWEBSERVICE</IFR_NAME>
+     <IFR_NSPCE>urn:sap-com:document:sap:rfc:functions</IFR_NSPCE>
+     <IFR_GNSPCE>urn:sap-com:document:sap:rfc:functions</IFR_GNSPCE>
+     <GEN_VERS>0006</GEN_VERS>
+     <CATEGORY>ifmmessage</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>urn:sap-com:document:sap:rfc:functions</X-ML_NSPCE>
+     <X-ML_NAME>ZMNO_FWEBSERVICE</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZMNO_FWEBSERVICE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>IV_BUKRS</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>IV_BUKRS</OBJ_NAME2>
+     <OBJECT_R>DTEL</OBJECT_R>
+     <OBJ_NAME_R>ZCHAR42</OBJ_NAME_R>
+     <ID>&lt;element&gt; IV_BUKRS &lt;message&gt; ZMNO_FWEBSERVICE urn:sap-com:document:sap:rfc:functions urn:sap-com:document:sap:rfc:functions</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>IV_BUKRS</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>IV_BUKRS</R3_NAME>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZMNO_FWEBSERVICE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>IV_GJAHR</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>IV_GJAHR</OBJ_NAME2>
+     <OBJECT_R>DTEL</OBJECT_R>
+     <OBJ_NAME_R>ZNUMERIC41</OBJ_NAME_R>
+     <ID>&lt;element&gt; IV_GJAHR &lt;message&gt; ZMNO_FWEBSERVICE urn:sap-com:document:sap:rfc:functions urn:sap-com:document:sap:rfc:functions</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>IV_GJAHR</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>IV_GJAHR</R3_NAME>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZMNO_FWEBSERVICE</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZMNO_FWEBSERVICE</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZMNO_FWEBSERVICE</OBJ_NAME2>
+     <ID>&lt;message&gt; ZMNO_FWEBSERVICE urn:sap-com:document:sap:rfc:functions urn:sap-com:document:sap:rfc:functions</ID>
+     <IFR_TYPE>message</IFR_TYPE>
+     <IFR_NAME>ZMNO_FWEBSERVICE</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZMNO_FWEBSERVICE</R3_NAME>
+     <R3_TEXT>Proxy Structure (generated)</R3_TEXT>
+     <CATEGORY>ifmmessage</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

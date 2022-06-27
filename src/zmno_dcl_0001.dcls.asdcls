@@ -1,0 +1,13 @@
+@EndUserText.label: 'DCL ilk adım'
+@MappingRole: true
+define role ZMNO_DCL_0001 {
+    grant
+        select
+            on
+                ZMNO_DDL002
+                    where
+                        wrbtr > 0
+                        and ( bukrs ) = aspect pfcg_auth( ZMNOCDS2 , BUKRS  ) ;
+                        
+                        
+}
